@@ -13,5 +13,5 @@ class MyClient(discord.Client):
             await message.channel.send('pong')
 
 client = MyClient()
-DISCORD_TOKEN = os.environ.get('DISCORD_TOKEN')
+DISCORD_TOKEN = os.environ['DISCORD_TOKEN']
 client.run(DISCORD_TOKEN)
