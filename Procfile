@@ -1,1 +1,1 @@
-hellobot.py
+python hellobot.py
